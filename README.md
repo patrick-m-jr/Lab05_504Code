@@ -2,12 +2,12 @@
 See Below for code used to develop apps. 
 ## Part 1. Simple Map App Showing User Location With Custom Text, Subtext, and zoom.
 '''
-//  ViewController.swift
-//  SimpleMapApp
-//
-//  Created by Patrick on 3/11/18.
-//  Copyright © 2018 UWT. All rights reserved.
-//
+ViewController.swift
+SimpleMapApp
+
+Created by Patrick on 3/11/18.
+Copyright © 2018 UWT. All rights reserved.
+
 import UIKit
 import MapKit
 import CoreLocation
@@ -52,3 +52,4 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
 }
 '''
+Here a snap shot of the app: <img src="504part1Screenshot.png"></img>
