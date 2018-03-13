@@ -51,4 +51,4 @@ class ViewController: UIViewController, MKMapViewDelegate {
         // Dispose of any resources that can be recreated.
     }
 ```
-Here a snap shot of the app: <img src="images/504part1Screenshot.png"></img>
+Here a snap shot of the app: <img src="images/504part1Screenshot.png" width = 200></img>
