@@ -1,7 +1,7 @@
 # Lab05_504Code
 See Below for code used to develop apps. 
 ## Part 1. Simple Map App Showing User Location With Custom Text, Subtext, and zoom.
-'''
+```
 ViewController.swift
 SimpleMapApp
 
@@ -51,5 +51,5 @@ class ViewController: UIViewController, MKMapViewDelegate {
         // Dispose of any resources that can be recreated.
     }
 }
-'''
-Here a snap shot of the app: <img src="504part1Screenshot.png"></img>
+´´´
+Here a snap shot of the app: <img src="images/504part1Screenshot.png"></img>
