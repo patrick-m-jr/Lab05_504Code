@@ -158,4 +158,4 @@ Here is a snapshot:
 
 Here is a snapshot:
 
-<img src= "images/AVD_pic.png" width= 500></img>
+<img src= "images/AVD_Pic.png" width= 500></img>
