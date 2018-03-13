@@ -56,6 +56,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
     }
 ```
 Here a snap shot of the app: 
+
 <img src="images/504part1Screenshot.png" width = 200></img>
 
 ## Part II. Adding more functionality: Search Bar, Automatic Zoom and Annotation Creation
@@ -152,4 +153,4 @@ class ViewController: UIViewController, UISearchBarDelegate{
 }
 ```
 Here is a snapshot:
-<img src= "images/part2.png"></img>
+<img src= "images/part2.png" width= 200></img>
