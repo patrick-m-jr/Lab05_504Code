@@ -75,8 +75,6 @@ Here a snap shot of the app:
 
 import UIKit
 import MapKit
-
-
 class ViewController: UIViewController, UISearchBarDelegate{
     
     
@@ -91,7 +89,7 @@ class ViewController: UIViewController, UISearchBarDelegate{
     {
         //Ignore user
         UIApplication.shared.beginIgnoringInteractionEvents()
-        
+
         //Activity Indeicator
         let activityIndicator = UIActivityIndicatorView()
         activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
@@ -112,8 +110,6 @@ class ViewController: UIViewController, UISearchBarDelegate{
         activeSearch.start {(response, error) in
             activityIndicator.stopAnimating()
             UIApplication.shared.endIgnoringInteractionEvents()
-            
-            
             if response == nil
             {
                 print("Error")
@@ -139,23 +135,27 @@ class ViewController: UIViewController, UISearchBarDelegate{
                 let span = MKCoordinateSpanMake(0.1,0.1)
                 let region = MKCoordinateRegionMake(coordinate, span)
                 self.MyMapView.setRegion(region, animated: true)
-                
             }
         }
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 ```
 Here is a snapshot:
-<img src= "images/part2.png" width= 300></img>
+
+<img src= "images/part2.png" width= 500></img>
+
+##Part III: Android Attempt. Simple Map application
+###Discussion: This was probably the most overwhelming IDE. I think this was because we had all previously worked with XCODE more. Once I was able to get to a testing phase (visualization) I ran into issues. 
+###Problems: I had issues setting up the emulator through the AVD. I tried multiple fixes <a href="https://stackoverflow.com/questions/41290134/android-studio-avd-manager-button-is-disabled">listed at StackOverflow </a> : Run as Administrator, Deleting .idea folder, and reinstallation (x2). The picture below shows the a grayed-out AVD (emulator set up). Without this I was unable to view my applcation. 
+
+Here is a snapshot:
+
+<img src= "images/.png" width= 500></img>
