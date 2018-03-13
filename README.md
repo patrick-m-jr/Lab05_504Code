@@ -4,7 +4,7 @@
 See Below for code used to develop apps. 
 ## Part 1. Simple Map App Showing User Location With Custom Text, Subtext, and zoom.
 
-Discussion: I worked off of one of the macbooks for this lab. I was able to create recreate some of the functionality demonstrated in the class room while adding some additional code snippets. I found this video as a great <a href="https://youtu.be/wU1XN-Gk1LM" > reference :</a>
+###Discussion: I worked off of one of the macbooks for this lab. I was able to create recreate some of the functionality demonstrated in the class room while adding some additional code snippets. I found this video as a great <a href="https://youtu.be/wU1XN-Gk1LM" > reference :</a>
 ```
 ViewController.swift
 SimpleMapApp
@@ -60,6 +60,11 @@ Here a snap shot of the app:
 <img src="images/504part1Screenshot.png" width = 200></img>
 
 ## Part II. Adding more functionality: Search Bar, Automatic Zoom and Annotation Creation
+
+###Discussion: For my second mapapp, I remained with Xcode and attempted to explore more functionality. I chose to remain with XCODE becuase I thought it would be great to continue on from the last point app that I created. I found this to be as straight forward as the previous applicaiton. I used a different vlogger,<a href="https://youtu.be/GYzNsVFyDrU"> the Swift Guy </a>, whose videos were also very good and detailed despite a few issues between Xcode/Swift versions. 
+
+###Problems: I used my 2012 iMac to complete this app. I am not if this is the reason I was having trouble. The intent of the applicaton wat to create a search bar that allowed users to search or locations. When I would test the Apple App in the emulator by clicking the<b> search button </b>, the application would freeze. This did not allow me to get another picture of an actual customized location. In the background of the picture below is the resulting error code that was generated when I attempted to enter a location. 
+
 ```
 //  ViewController.swift
 //  testNavContorller
@@ -153,4 +158,4 @@ class ViewController: UIViewController, UISearchBarDelegate{
 }
 ```
 Here is a snapshot:
-<img src= "images/part2.png" width= 200></img>
+<img src= "images/part2.png" width= 300></img>
