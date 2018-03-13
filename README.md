@@ -1,10 +1,8 @@
- 
-
 # Lab05_504Code
 See Below for code used to develop apps. 
 ## Part 1. Simple Map App Showing User Location With Custom Text, Subtext, and zoom.
 
-## Discussion:
+### Discussion:
 I worked off of one of the macbooks for this lab. I was able to create recreate some of the functionality demonstrated in the class room while adding some additional code snippets. I found this video as a great <a href="https://youtu.be/wU1XN-Gk1LM" > reference :</a>
 ```
 ViewController.swift
