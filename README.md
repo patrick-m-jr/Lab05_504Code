@@ -61,9 +61,11 @@ Here a snap shot of the app:
 
 ## Part II. Adding more functionality: Search Bar, Automatic Zoom and Annotation Creation
 
-##Discussion: For my second mapapp, I remained with Xcode and attempted to explore more functionality. I chose to remain with XCODE becuase I thought it would be great to continue on from the last point app that I created. I found this to be as straight forward as the previous applicaiton. I used a different vlogger,<a href="https://youtu.be/GYzNsVFyDrU"> the Swift Guy </a>, whose videos were also very good and detailed despite a few issues between Xcode/Swift versions. 
+### Discussion:
+For my second mapapp, I remained with Xcode and attempted to explore more functionality. I chose to remain with XCODE becuase I thought it would be great to continue on from the last point app that I created. I found this to be as straight forward as the previous applicaiton. I used a different vlogger,<a href="https://youtu.be/GYzNsVFyDrU"> the Swift Guy </a>, whose videos were also very good and detailed despite a few issues between Xcode/Swift versions. 
 
-##Problems: I used my 2012 iMac to complete this app. I am not if this is the reason I was having trouble. The intent of the applicaton wat to create a search bar that allowed users to search or locations. When I would test the Apple App in the emulator by clicking the<b> search button </b>, the application would freeze. This did not allow me to get another picture of an actual customized location. In the background of the picture below is the resulting error code that was generated when I attempted to enter a location. 
+### Problems:
+I used my 2012 iMac to complete this app. I am not if this is the reason I was having trouble. The intent of the applicaton wat to create a search bar that allowed users to search or locations. When I would test the Apple App in the emulator by clicking the<b> search button </b>, the application would freeze. This did not allow me to get another picture of an actual customized location. In the background of the picture below is the resulting error code that was generated when I attempted to enter a location. 
 
 ```
 //  ViewController.swift
@@ -106,7 +108,7 @@ class ViewController: UIViewController, UISearchBarDelegate{
         let searchRequest = MKLocalSearchRequest()
         searchRequest.naturalLanguageQuery = searchBar.text
         
-        let activeSearch = MKLocalSearch(request: searchRequest)
+         let activeSearch = MKLocalSearch(request: searchRequest)
         activeSearch.start {(response, error) in
             activityIndicator.stopAnimating()
             UIApplication.shared.endIgnoringInteractionEvents()
@@ -152,9 +154,11 @@ Here is a snapshot:
 
 <img src= "images/part2.png" width= 500></img>
 
-##Part III: Android Attempt. Simple Map application
-##Discussion: This was probably the most overwhelming IDE. I think this was because we had all previously worked with XCODE more. Once I was able to get to a testing phase (visualization) I ran into issues. 
-##Problems: I had issues setting up the emulator through the AVD. I tried multiple fixes <a href="https://stackoverflow.com/questions/41290134/android-studio-avd-manager-button-is-disabled">listed at StackOverflow </a> : Run as Administrator, Deleting .idea folder, and reinstallation (x2). The picture below shows the a grayed-out AVD (emulator set up). Without this I was unable to view my applcation. 
+## Part III: Android Attempt. Simple Map application
+### Discussion: 
+This was probably the most overwhelming IDE. I think this was because we had all previously worked with XCODE more. Once I was able to get to a testing phase (visualization) I ran into issues. 
+### Problems: 
+I had issues setting up the emulator through the AVD. I tried multiple fixes <a href="https://stackoverflow.com/questions/41290134/android-studio-avd-manager-button-is-disabled">listed at StackOverflow </a> : Run as Administrator, Deleting .idea folder, and reinstallation (x2). The picture below shows the a grayed-out AVD (emulator set up). Without this I was unable to view my applcation. 
 
 Here is a snapshot:
 
