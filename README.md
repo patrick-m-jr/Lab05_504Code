@@ -153,6 +153,11 @@ Here is a snapshot:
 
 <img src= "images/part2.png" width= 500></img>
 
+## Update:
+Turns out the old iMAC was the problem. See picture below for updated map app allowing the user to access a <b>search bar</b>, recenter the map, adjust zoom, and display annotation.
+
+<img src= "images/GuamLocation.png" width= 200></img>
+
 ## Part III: Android Attempt. Simple Map application
 ### Discussion: 
 This was probably the most overwhelming IDE. I think this was because we had all previously worked with XCODE more. Once I was able to get to a testing phase (visualization) I ran into issues. 
