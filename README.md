@@ -66,7 +66,7 @@ For my second mapapp, I remained with Xcode and attempted to explore more functi
 ### Problems:
 I used my 2012 iMac to complete this app. I am not if this is the reason I was having trouble. The intent of the applicaton wat to create a search bar that allowed users to search or locations. When I would test the Apple App in the emulator by clicking the<b> search button </b>, the application would freeze. This did not allow me to get another picture of an actual customized location. In the background of the picture below is the resulting error code that was generated when I attempted to enter a location. 
 
-I also tried to call a different map background but it would not work. I followed the steps <a href= "https://www.mapbox.com/install/"></a>. It kept saying that there was no module named MapBox
+I also tried to call a different map background but it would not work. I followed the steps at <a href= "https://www.mapbox.com/install/"> MAP BOX</a>. I tried both adding code and add view through stroy board. It kept saying that there was no module named MapBox.
 
 ```
 //  ViewController.swift
